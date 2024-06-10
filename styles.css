@@ -1,0 +1,99 @@
+/* Perustyyli koko sivustolle */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+#menu {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#menu button {
+    background-color: #77b7e1;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#menu button:hover {
+    background-color: #45a049;
+}
+
+#game-container {
+    text-align: center;
+    margin-top: 60px;
+}
+
+#game-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#drop-boxes, #choices {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.box, .choice {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border: 2px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.choice {
+    cursor: pointer;
+}
+
+.choice.faded {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.choice.incorrect {
+    border-color: red;
+}
+
+#next-level {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 20px auto;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#next-level:hover {
+    background-color: #007bb5;
+}
+
+.star {
+    font-size: 70px;
+    color: gold;
+    margin: 10px;
+}
