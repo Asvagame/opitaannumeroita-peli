@@ -97,3 +97,18 @@ body {
     color: gold;
     margin: 10px;
 }
+@media (max-width: 600px) {
+    #game-title {
+        font-size: 1.2em;
+    }
+
+    .box, .choice {
+        width: 50px;
+        height: 50px;
+    }
+
+    button {
+        font-size: 1em;
+        padding: 8px 16px;
+    }
+}
